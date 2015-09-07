@@ -86,7 +86,7 @@
              <p>
         <asp:UpdatePanel ID="UpdatePanel1" runat="server" UpdateMode="Conditional">
             <ContentTemplate>         
-                <asp:Button ID="ButtonInsert" runat="server" Text="Добавить(Add new 366)" CommandName="Insert" CommandArgument="New" OnCommand="ButtonInsert_Command" OnClientClick="NewFormData('0');" UseSubmitBehavior="False" />  
+                <asp:Button ID="ButtonInsert" runat="server" Text="Добавить(Add new good)" CommandName="Insert" CommandArgument="New" OnCommand="ButtonInsert_Command" OnClientClick="NewFormData('0');" UseSubmitBehavior="False" />  
                  
 
                 <%--<a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>--%>
